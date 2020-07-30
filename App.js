@@ -5,16 +5,18 @@
  * @format
  * @flow strict-local
  */
-
+//core components
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-
+//custom components
 import Header from './components/Header';
+import StartGameScreen from './screens/StartGameScreen';
 
 export default function App() {
   return (
     <View style={styles.screen}>
       <Header title="Guess A Number" />
+      <StartGameScreen />
     </View>
   );
 }
