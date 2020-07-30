@@ -35,6 +35,16 @@ const styles = StyleSheet.create({
     maxWidth: '80%',
     //we center items horizontally that is the cross axis in this case
     alignItems: 'center',
+    //Notice that Shadow props only works for iOS platforms
+    shadowColor: 'black',
+    //given a width and height, you can set how the Offset should be
+    shadowOffset: {width: 0, height: 2},
+    shadowRadius: 6,
+    shadowOpacity: 0.26,
+    //Although elevation prop just works for Android Platforms
+    elevation: 8,
+    backgroundColor: 'white',
+    padding: 20,
   },
   buttonContainer: {
     flexDirection: 'row',
